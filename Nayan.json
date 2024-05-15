@@ -6,7 +6,7 @@
   "notification": true,
   "approval": false,
   "BOTNAME": "🤖🥰𝕊𝕖𝕟𝕚𝕠𝕣 𝔸𝕡𝕦🥰🤖",
-  "PREFIX": ".",
+  "PREFIX": "/",
   "OPERATOR": [
     "100014020217824",
     "100027427117900",
