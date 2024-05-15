@@ -16,7 +16,7 @@ module.exports.run = async({ event, api, Threads, Users }) => {
   api.addUserToGroup(event.logMessageData.leftParticipantFbId, event.threadID, (error, info) => {
    if (error) {
     api.sendMessage(` ${name} ꧁༒☬শালায় আমারে ব্লক দিছে, হিতেরে অ্যাড করতে পারতেছি না!☬༒꧂ `, event.threadID)
-   } else api.sendMessage(`${name} ꧁༺😅আমাগো রে রেখে পালাতে চাচ্ছিস?😅༻꧂`, event.threadID);
+   } else api.sendMessage(`${name} ꧁༺❌🚫😅আমাদের রেখে পালাবা কোথায় বাবু?😅🚫❌༻꧂`, event.threadID);
   })
  }
 }
